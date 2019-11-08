@@ -1,4 +1,4 @@
-package com.example.kotlinbasics
+package com.example.kotlinbasics.koltinBasics
 
 fun main() {
 //    case 1
@@ -18,7 +18,7 @@ fun main() {
     var array2d = arrayOf(
             arrayOf(1, 2, 3),
             arrayOf(1, 2, 3)
-            )
+    )
 
     for (i in array2d) {
         for (j in i) {

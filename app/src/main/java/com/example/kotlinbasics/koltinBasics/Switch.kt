@@ -1,4 +1,4 @@
-package com.example.kotlinbasics
+package com.example.kotlinbasics.koltinBasics
 
 fun main() {
     var a = "red"
