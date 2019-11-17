@@ -1,4 +1,4 @@
-package com.example.kotlinbasics.kotlonclass
+package com.example.kotlinbasics.kotlinclass
 
 fun main() {
     var hero = Hero()

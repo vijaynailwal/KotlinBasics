@@ -1,4 +1,4 @@
-package com.example.kotlinbasics.kotlonclass
+package com.example.kotlinbasics.kotlinclass
 
 class Hero {
     var nickname = "vijay"
