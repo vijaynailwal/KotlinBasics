@@ -3,7 +3,6 @@ package com.example.kotlinbasics.ExtentionFunction
 
 fun main() {
     var hero = Hero()
-
     hero.setPower("vijay")
     hero.showPower()
 

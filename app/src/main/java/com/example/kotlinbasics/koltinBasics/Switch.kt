@@ -14,4 +14,14 @@ fun main() {
         }
 
     }
+// 2nd example in operator
+    var x = 10
+    when (x) {
+        in 1..10 ->
+            println("x is in 1 to 10")
+        in 10..20 ->
+            println("x is in 10 to 20")
+        else ->
+            println("default executec")
+    }
 }

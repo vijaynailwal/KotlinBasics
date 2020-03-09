@@ -6,8 +6,8 @@ class Model(var email: String) {
     }
 
     constructor(id: String, email: String, name: String) : this(email) {
-        println(id)
-        println(email)
-        println(name)
+        println("Primary Constructor executed inside secondary constructor id= $id")
+        println("secondary constructor email = $email")
+        println("secondary constructor name = $name")
     }
 }
