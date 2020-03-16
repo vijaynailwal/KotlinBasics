@@ -1,6 +1,6 @@
 package com.example.kotlinbasics.ExtentionFunction
 
-
+//by the help of object you can define the function form outside the class
 fun main() {
     var hero = Hero()
     hero.setPower("vijay")
