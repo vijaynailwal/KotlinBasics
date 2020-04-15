@@ -1,21 +1,24 @@
 package com.example.kotlinbasics.dataclass
 
-data class User(val username: String, val password: String)
+import com.example.kotlinbasics.singleton.User
 
-fun main() {
-/*
-    var user=User("vijay","123456")
-    var user2=User("gaurav","123456")
-    var newuser=user.copy("bhawna")
-    println(user)
-    println(user==user2)
-    println(newuser)
-*/
+//smartherd
+ data class User(val username: String, val id: Int)
 
-    fun getUser():User{
-        return User("vijay","34334")
-    }
-    val(username,password)=getUser()
-    println(" $username,$password")
+fun main(args: Array<String>) {
+
+    var user1 = User("vijay", 101)
+    var user2 = User("vijay", 101)
+    println("object of user is = ${user1}")
+
+//    println(user1===user2)
+
+//    var newuser=user1.copy()
+    //you can also change the value in object
+//    var newuser = user1.copy(id = 1, username = "gaurav")
+//    println("new uesr is {$newuser}")
+
+
+
 
 }
