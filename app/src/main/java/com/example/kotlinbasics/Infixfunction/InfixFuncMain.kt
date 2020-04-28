@@ -7,17 +7,13 @@ package com.example.kotlinbasics.Infixfunction
 fun main() {
     var power = InfixFunc("vijay")
 //    power.showName("vijay123")
-
     power showName "vijay1234"
-
-
 }
-
+//can contain only one parameter.
 //fun InfixFunc.showName(name:String){
 infix fun InfixFunc.showName(name: String) {
     namelist.add(name)
     for (p in namelist) {
         println(p)
     }
-
 }
